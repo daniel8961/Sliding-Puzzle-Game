@@ -1,38 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="moving.js">
+        <script type="text/javascript" src="moving.js"></script>
 
-        </script>
-
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-            #instruction{
-                width: 400px;
-                margin: auto;
-                text-align: center;
-            }
-            body{
-                font-family: 'Shadows Into Light', cursive;
-            }
-            td{
-                border: 1px solid black;
-            }
-            td{
-                text-align: center;
-                font-family: 'Shadows Into Light', cursive;
-                height: 50px;
-                width: 50px;
-                font-size: 20pt;
-            }
-            table{
-                margin: auto;
-                height: 400px;
-                width: 400px;
-            }
-            </style>
-            </head>
+        <link rel="stylesheet" href="main_page.css">
+    </head>
     <body>
+        <h1>Sliding Puzzle</h1>
         <p id="change"></p>
         <table>
             <tr>
@@ -80,7 +54,11 @@
                 And to move a tile, just click on it, and it will be switched with the empty tile.
             </li>
         </ul>
-        <button onclick="reshuffle()">Reshuffle</button>
+        <div class="bottom">
+          <div class="bottom_buttons">
+            <button onclick="reshuffle()" class="button_shuffle" type="button" value="shuffle">Reshuffle</button>
+          </div>
+        </div>
     </div>
     </body>
 </html>
