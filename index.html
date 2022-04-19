@@ -4,12 +4,26 @@
         <script type="text/javascript" src="moving.js">
 
         </script>
+
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+            #instruction{
+                width: 400px;
+                margin: auto;
+                text-align: center;
+            }
+            body{
+                font-family: 'Shadows Into Light', cursive;
+            }
             td{
                 border: 1px solid black;
             }
             td{
-                text-align: right;
+                text-align: center;
+                font-family: 'Shadows Into Light', cursive;
+                height: 50px;
+                width: 50px;
+                font-size: 20pt;
             }
             table{
                 margin: auto;
@@ -19,6 +33,7 @@
             </style>
             </head>
     <body>
+        <p id="change"></p>
         <table>
             <tr>
                 <td id="1"></td>
@@ -45,5 +60,27 @@
                 <td id="16"></td>
             </tr>
         </table>
+        <div id="instruction">
+        <h4>instructions</h4>
+        <ul>
+            <li>
+                The goal is to sort the numbers in an ascending order left to right.
+            </li>
+            <li>
+                The empty box must be in the 4th row and in the last column to the right.
+            </li>
+            <li>
+                You can only move the tiles that are next to the empty tile.
+            </li>
+            <li>
+                To know which tile can be moved, just hover over the tiles around the empty tile. The ones that turn green
+                are those that can be moved.
+            </li>
+            <li>
+                And to move a tile, just click on it, and it will be switched with the empty tile.
+            </li>
+        </ul>
+        <button onclick="reshuffle()">Reshuffle</button>
+    </div>
     </body>
 </html>
