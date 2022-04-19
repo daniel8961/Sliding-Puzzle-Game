@@ -1,0 +1,38 @@
+body{
+  background: #87CEEB;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 100px;
+}
+h1{
+
+}
+table{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}
+td{
+    border: 1px solid black;
+    text-align: right;
+}
+.bottom{
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+.button_shuffle{
+  font-family: "Aclonica";
+  font-weight: bold;
+  background-color: #003366;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
