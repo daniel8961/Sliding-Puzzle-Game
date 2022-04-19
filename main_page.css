@@ -1,20 +1,7 @@
-body{
-  background: #87CEEB;
-  text-align: center;
+h1{
   font-family: 'Brush Script MT', cursive;
   font-size: 100px;
-}
-h1{
-
-}
-table{
-    margin: auto;
-    height: 400px;
-    width: 400px;
-}
-td{
-    border: 1px solid black;
-    text-align: right;
+  text-align: center;
 }
 .bottom{
   display: flex;
@@ -35,4 +22,29 @@ td{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+#instruction{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+body{
+    font-family: 'Shadows Into Light', cursive;
+    background: #87CEEB;
+}
+td{
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    height: 50px;
+    width: 50px;
+    font-size: 20pt;
+}
+table{
+    margin: auto;
+    height: 400px;
+    width: 400px;
 }
